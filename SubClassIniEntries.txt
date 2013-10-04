@@ -1,0 +1,117 @@
+Default SubClass config To be put in UT2004RPG.ini file and then edited.
+
+[DruidsRPGcvs.SubClass]
+SubClasses="None"
+SubClasses="AM/WM hybrid"
+SubClasses="AM/MM hybrid"
+SubClasses="AM/Eng hybrid"
+SubClasses="WM/MM hybrid"
+SubClasses="WM/Eng hybrid"
+SubClasses="MM/Eng hybrid"
+SubClasses="Extreme AM"
+SubClasses="Extreme WM"
+SubClasses="Extreme Medic"
+SubClasses="Extreme Monsters"
+SubClasses="Extreme Engineer"
+SubClasses="Berserker"
+SubClasses="Class: Adrenaline Master"
+SubClasses="Class: Weapons Master"
+SubClasses="Class: Monster/Medic Master"
+SubClasses="Class: Engineer"
+SubClasses="Class: General"
+SubClasses="Skilled Weapons"
+SubClasses="Tank"
+SubClasses="Turret Specialist"
+SubClasses="Vehicle Specialist"
+SubClasses="Sentinel Specialist"
+SubClassConfigs=(AvailableClass=Class'ClassAdrenalineMaster',AvailableSubClass="AM/WM hybrid",MinLevel=80)
+SubClassConfigs=(AvailableClass=Class'ClassAdrenalineMaster',AvailableSubClass="AM/MM hybrid",MinLevel=80)
+SubClassConfigs=(AvailableClass=Class'ClassAdrenalineMaster',AvailableSubClass="AM/Eng hybrid",MinLevel=80)
+SubClassConfigs=(AvailableClass=Class'ClassAdrenalineMaster',AvailableSubClass="Extreme AM",MinLevel=100)
+SubClassConfigs=(AvailableClass=Class'ClassWeaponsMaster',AvailableSubClass="AM/WM hybrid",MinLevel=80)
+SubClassConfigs=(AvailableClass=Class'ClassWeaponsMaster',AvailableSubClass="WM/MM hybrid",MinLevel=80)
+SubClassConfigs=(AvailableClass=Class'ClassWeaponsMaster',AvailableSubClass="WM/Eng hybrid",MinLevel=80)
+SubClassConfigs=(AvailableClass=Class'ClassWeaponsMaster',AvailableSubClass="Extreme WM",MinLevel=100)
+SubClassConfigs=(AvailableClass=Class'ClassWeaponsMaster',AvailableSubClass="Berserker",MinLevel=100)
+SubClassConfigs=(AvailableClass=Class'ClassMonsterMaster',AvailableSubClass="AM/MM hybrid",MinLevel=80)
+SubClassConfigs=(AvailableClass=Class'ClassMonsterMaster',AvailableSubClass="WM/MM hybrid",MinLevel=80)
+SubClassConfigs=(AvailableClass=Class'ClassMonsterMaster',AvailableSubClass="MM/Eng hybrid",MinLevel=80)
+SubClassConfigs=(AvailableClass=Class'ClassMonsterMaster',AvailableSubClass="Extreme Medic",MinLevel=100)
+SubClassConfigs=(AvailableClass=Class'ClassMonsterMaster',AvailableSubClass="Extreme Monsters",MinLevel=100)
+SubClassConfigs=(AvailableClass=Class'ClassEngineer',AvailableSubClass="AM/Eng hybrid",MinLevel=80)
+SubClassConfigs=(AvailableClass=Class'ClassEngineer',AvailableSubClass="WM/Eng hybrid",MinLevel=80)
+SubClassConfigs=(AvailableClass=Class'ClassEngineer',AvailableSubClass="MM/Eng hybrid",MinLevel=80)
+SubClassConfigs=(AvailableClass=Class'ClassEngineer',AvailableSubClass="Extreme Engineer",MinLevel=100)
+SubClassConfigs=(AvailableClass=Class'ClassGeneral',AvailableSubClass="AM/WM hybrid",MinLevel=80)
+SubClassConfigs=(AvailableClass=Class'ClassGeneral',AvailableSubClass="AM/MM hybrid",MinLevel=80)
+SubClassConfigs=(AvailableClass=Class'ClassGeneral',AvailableSubClass="AM/Eng hybrid",MinLevel=80)
+SubClassConfigs=(AvailableClass=Class'ClassGeneral',AvailableSubClass="WM/MM hybrid",MinLevel=80)
+SubClassConfigs=(AvailableClass=Class'ClassGeneral',AvailableSubClass="WM/Eng hybrid",MinLevel=80)
+SubClassConfigs=(AvailableClass=Class'ClassGeneral',AvailableSubClass="MM/Eng hybrid",MinLevel=80)
+SubClassConfigs=(AvailableClass=Class'ClassWeaponsMaster',AvailableSubClass="Skilled Weapons",MinLevel=100)
+SubClassConfigs=(AvailableClass=Class'ClassWeaponsMaster',AvailableSubClass="Tank",MinLevel=100)
+SubClassConfigs=(AvailableClass=Class'ClassEngineer',AvailableSubClass="Turret Specialist",MinLevel=100)
+SubClassConfigs=(AvailableClass=Class'ClassEngineer',AvailableSubClass="Vehicle Specialist",MinLevel=100)
+SubClassConfigs=(AvailableClass=Class'ClassEngineer',AvailableSubClass="Sentinel Specialist",MinLevel=100)
+
+# now the subtypes.
+# 0   None,
+# 1-6   AM/WM hybrid, AM/MM hybrid, AM/Eng hybrid, WM/MM hybrid, WM/Eng hybrid, MM/Eng hybrid
+# 7-12   Extreme AM, Extreme WM, Extreme Medic, Extreme Monsters, Extreme Engineer, Berserker"
+# 13-17   Class: Adrenaline Master, Class: Weapons Master, Class: Monster/Medic Master, Class: Engineer, Class: General,
+#  18-22    Skilled weapons, tank, turret, vehicle, sentinel specialists
+#                                                                                                N,AW,AM,AE,WM,WE,ME,EA,EW,EM,EP,EE, B, A, W, M, E, G,SW,TK,TS,VS,SS
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.DruidArtifactLoaded',MaxLevels=(00,00,00,00,00,00,00,05,00,00,00,00,00,04,00,00,00,00,00,00,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.DruidArtifactLoadedHybrid',MaxLevels=(00,02,02,02,00,00,00,00,00,00,00,00,00,00,00,00,00,01,00,00,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.DruidAdrenalineSurge',MaxLevels=(00,00,00,00,00,00,00,03,00,00,00,00,00,02,00,00,00,00,00,00,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.DruidEnergyVampire',MaxLevels=(00,05,00,00,00,00,00,02,00,00,00,00,00,05,00,00,00,03,00,00,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilityEnergyShield',MaxLevels=(00,00,00,02,00,00,00,03,00,00,00,00,00,02,00,00,00,00,00,00,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.DruidLoaded',MaxLevels=(00,02,00,00,02,02,00,00,06,00,00,00,05,00,05,00,00,01,02,05,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.DruidVampire',MaxLevels=(00,04,00,00,04,04,00,00,15,00,00,00,10,00,10,00,00,02,10,10,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilityEnhancedDamage',MaxLevels=(00,05,00,00,05,05,00,00,10,00,00,00,00,00,10,00,00,02,00,00,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilityBerserkerDamage',MaxLevels=(00,00,00,00,00,00,00,00,00,00,00,00,20,00,00,00,00,00,00,00,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilityWeaponsProficiency',MaxLevels=(00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,10,00,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilityIncreasedDamage',MaxLevels=(00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,10,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilityIncreasedProtection',MaxLevels=(00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,10,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilityLoadedHealing',MaxLevels=(00,00,02,00,02,00,02,00,00,04,01,00,00,00,00,03,00,02,00,00,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilityExpHealing',MaxLevels=(00,00,02,00,02,00,02,00,00,20,00,00,00,00,00,09,00,00,00,00,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilityMedicAwareness',MaxLevels=(00,00,02,00,02,00,02,00,00,02,01,00,00,00,00,02,00,02,00,00,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilityLoadedMonsters',MaxLevels=(00,00,05,00,05,00,05,00,00,00,20,00,00,00,00,15,00,00,00,00,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilityMonsterHealthBonus',MaxLevels=(00,00,00,00,00,00,00,00,00,00,10,00,00,00,00,10,00,00,00,00,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilityMonsterPoints',MaxLevels=(00,00,06,00,06,00,06,00,00,00,30,00,00,00,00,20,00,00,00,00,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilityMonsterSkill',MaxLevels=(00,00,02,00,02,00,02,00,00,00,07,00,00,00,00,07,00,00,00,00,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilityMonsterDamage',MaxLevels=(00,00,00,00,00,00,00,00,00,00,20,00,00,00,00,00,00,00,00,00,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilityEnhancedReduction',MaxLevels=(00,00,05,00,05,00,05,00,00,10,10,00,00,00,00,10,00,02,00,00,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilityLoadedEngineer',MaxLevels=(00,00,00,08,00,08,08,00,00,00,00,00,00,00,00,00,15,05,00,00,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilityExtremeEngineer',MaxLevels=(00,00,00,00,00,00,00,00,00,00,00,15,00,00,00,00,00,00,00,00,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilityTurretSpecialist',MaxLevels=(00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,20,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilityVehicleSpecialist',MaxLevels=(00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,20,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilitySentinelSpecialist',MaxLevels=(00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,20))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.DruidShieldRegen',MaxLevels=(00,00,00,07,00,07,07,00,00,00,00,00,00,00,00,00,15,05,00,15,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilityShieldHealing',MaxLevels=(00,00,00,01,00,01,03,00,00,00,00,00,00,00,00,00,03,01,00,00,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.DruidArmorRegen',MaxLevels=(00,00,00,02,00,02,02,00,00,00,00,05,00,00,00,00,05,00,00,00,05,05,05))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.DruidArmorVampire',MaxLevels=(00,00,00,05,00,05,00,00,00,00,00,15,00,00,00,00,10,00,00,00,15,15,10))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilityConstructionHealthBonus',MaxLevels=(00,00,00,06,00,06,06,00,00,00,00,15,00,00,00,00,10,03,00,00,15,15,15))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilityEngineerAwareness',MaxLevels=(00,00,00,01,00,01,01,00,00,00,00,00,00,00,00,00,01,01,00,00,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilityRapidBuild',MaxLevels=(00,00,00,00,00,00,00,00,00,00,00,10,00,00,00,00,05,00,00,00,10,10,10))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.DruidAmmoRegen',MaxLevels=(00,04,02,02,02,02,00,01,05,00,00,00,04,04,04,00,00,02,05,03,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.DruidAwareness',MaxLevels=(00,02,02,02,02,02,00,02,02,00,00,00,02,02,02,00,00,02,02,02,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.DruidNoWeaponDrop',MaxLevels=(00,02,00,00,00,00,00,00,00,00,00,00,00,03,02,00,00,00,02,02,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.DruidRegen',MaxLevels=(00,03,03,00,05,03,03,00,00,05,02,00,00,00,05,05,00,03,05,05,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.DruidAdrenalineRegen',MaxLevels=(00,00,03,02,01,00,01,04,00,02,02,00,00,03,00,03,00,03,00,00,00,00,00))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilityVehicleEject',MaxLevels=(00,01,01,01,01,01,01,00,00,00,00,04,00,01,01,01,04,01,01,01,04,04,04))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.AbilityWheeledVehicleStunts',MaxLevels=(00,01,01,01,01,01,01,00,00,00,00,03,00,01,01,01,03,01,01,01,03,03,03))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.DruidGhost',MaxLevels=(03,03,03,03,03,03,03,03,03,03,03,03,03,03,03,03,03,03,03,03,03,03,03))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.DruidUltima',MaxLevels=(02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,03,02,02,02))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.DruidCounterShove',MaxLevels=(05,05,05,05,05,05,05,05,05,05,05,05,05,05,05,05,05,05,05,05,05,05,05))
+AbilityConfigs=(AvailableAbility=Class'DruidsRPGcvs.DruidRetaliate',MaxLevels=(10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10))
+AbilityConfigs=(AvailableAbility=Class'UT2004RPG.AbilityJumpZ',MaxLevels=(03,03,03,03,03,03,03,03,03,03,03,03,03,03,03,03,03,03,03,00,03,03,03))
+AbilityConfigs=(AvailableAbility=Class'UT2004RPG.AbilityReduceFallDamage',MaxLevels=(04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,00,04,04,04))
+AbilityConfigs=(AvailableAbility=Class'UT2004RPG.AbilitySpeed',MaxLevels=(05,05,05,05,05,05,05,05,05,05,05,05,05,05,05,05,05,05,05,00,05,05,05))
+AbilityConfigs=(AvailableAbility=Class'UT2004RPG.AbilityShieldStrength',MaxLevels=(04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,04))
+AbilityConfigs=(AvailableAbility=Class'UT2004RPG.AbilityReduceSelfDamage',MaxLevels=(05,05,05,05,05,05,05,05,05,05,05,05,05,05,05,05,05,05,05,05,05,05,05))
+AbilityConfigs=(AvailableAbility=Class'UT2004RPG.AbilitySmartHealing',MaxLevels=(04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,04))
+AbilityConfigs=(AvailableAbility=Class'UT2004RPG.AbilityAirControl',MaxLevels=(04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,04,00,04,04,04))
+AbilityConfigs=(AvailableAbility=Class'UT2004RPG.AbilityFastWeaponSwitch',MaxLevels=(02,02,02,02,02,02,02,00,02,02,02,01,02,02,02,02,02,02,02,00,01,01,01))
+AbilityConfigs=(AvailableAbility=Class'UT2004RPG.AbilityHardCore',MaxLevels=(01,01,01,01,01,01,01,01,01,01,01,01,01,01,01,01,01,01,01,01,01,01,01))
+
